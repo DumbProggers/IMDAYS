@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "1614037917",
+    "firebase_url": "https://imdays-default-rtdb.firebaseio.com",
+    "project_id": "imdays",
+    "storage_bucket": "imdays.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1614037917:android:549a372d0acd7abbade574",
+        "android_client_info": {
+          "package_name": "com.example.frbase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFJIbAXbrNMzLCI2DmnhKZsOnJcgLKDLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1614037917:android:d8c2628e9a129fb1ade574",
+        "android_client_info": {
+          "package_name": "com.example.imdaysv101"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFJIbAXbrNMzLCI2DmnhKZsOnJcgLKDLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
