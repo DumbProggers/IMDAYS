@@ -39,7 +39,7 @@ public class ChoiceNameDayActivity extends AppCompatActivity implements DefaultF
         Bundle bundle = getIntent().getExtras();
         if(bundle!=null){
             day = (Day) getIntent().getSerializableExtra("day");
-            System.out.print(day.getInfo());
+            System.out.print(day.getInfo()+"INFO");
         }
     }
 }
