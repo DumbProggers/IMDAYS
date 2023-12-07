@@ -2,6 +2,8 @@ package com.example.imdaysv2java;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Day implements Serializable{
     private String description_most_important,
@@ -9,6 +11,10 @@ public class Day implements Serializable{
             dateTime;
     private int imageRecurse,
             emotionalScore;
+
+
+
+    private List<String> tags = new ArrayList<>();
 
     public String getInfo(){
         return "Day date:"+dateTime+"\n"+
@@ -30,6 +36,12 @@ public class Day implements Serializable{
     }
 
 
+    public List<String> getTags() {
+        return tags;
+    }
+    public void setTags(List<String> tags) {
+        this.tags = tags;
+    }
 
     public String getName() {
         return name;

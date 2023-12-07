@@ -23,7 +23,6 @@ public class ChoiceNameDayActivity extends AppCompatActivity implements DefaultF
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choice_name_day);
         acceptDay();
-
     }
     @Override
     public void cloze(View view) throws IOException {
@@ -34,6 +33,9 @@ public class ChoiceNameDayActivity extends AppCompatActivity implements DefaultF
     public void next(View view) throws IOException, URISyntaxException {
         EditText editTextName = findViewById(R.id.day_character__name);
         day.setName(editTextName.getText().toString());
+        Intent intent = new Intent(this, ChoiceTagsActivity.class);
+        intent.putExtra("day",day);
+        startActivity(intent);
     }
     private void acceptDay(){
         Bundle bundle = getIntent().getExtras();
